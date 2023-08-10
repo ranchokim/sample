@@ -1,0 +1,7 @@
+dependencies {
+    implementation 'tk.mybatis:mapper-spring-boot-starter:1.2.4'
+    implementation project(':neibus-common')
+    implementation 'org.projectlombok:lombok:1.18.26'
+    implementation('com.fasterxml.jackson.core:jackson-annotations:2.13.4')
+    implementation 'commons-fileupload:commons-fileupload:1.4'
+}
